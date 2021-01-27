@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <th>Match Id</th>
+    <th>Match Name</th>
+    <th>Winner</th>
+    <th>Number</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of results">
+      <td>{{item.matchId}}</td>
+      <td>{{item.matchName}}</td>
+      <td>{{item.user}}</td>
+      <td>{{item.winningNumber}}</td>
+    </tr>
+  </tbody>
+</table>
+<button (click)="refreshResults()">Refresh Results</button>
+

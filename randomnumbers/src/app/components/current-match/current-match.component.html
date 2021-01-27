@@ -1,0 +1,21 @@
+<h2>Upcoming Match</h2>
+
+<table>
+  <thead>
+    <th>Match Id</th>
+    <th>Match Name</th>
+    <th>Ends at</th>
+    <th></th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{currentMatch.id}}</td>
+      <td>{{currentMatch.name}}</td>
+      <td>{{currentMatch.expiryDate}}</td>
+      <td> <button *ngIf="!numberGenerated" (click)="playMatch()">Play Now</button></td>
+    </tr>
+  </tbody>
+</table>
+<div *ngIf="numberGenerated">
+  Number Generated {{ numberGenerated }}
+</div>
