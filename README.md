@@ -4,7 +4,7 @@ Cleverbit test
 
 How to start the project:
 
-1. Clone it in your repo with git clone https://github.com/Machinist828/test.git
+1. Clone it in your local repo with git clone https://github.com/Machinist828/test.git
 
 2. Navigate to the randomnumbers folder
 
